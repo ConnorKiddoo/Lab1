@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/*font-family: 'Maven Pro', sans-serif;
+font-family: 'Monoton', cursive;
+
+
+ Color Theme
+#225E70
+#91DCF2
+#48C9F0
+#3D6875
+#399EBD
+*/
+
+body
+{
+    background-color: #91DCF2;
+}
+
+div
+{
+    background-color: #91DCF2;
+    display: grid;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+p
+{
+    position: relative;
+    text-align: center;
+    color: #3D6875;
+}
+
+footer
+{
+    text-align:center;
+    color: #399EBD;
+}
+
+.title
+{
+    position: relative;
+    text-align:center;
+    color: #225E70;
+    font-size: 50px;
+    font-family: 'Monoton', cursive;
+    word-spacing: 10px
+}
+
+.footer
+{
+    text-align: center;
+    bottom: 3px;
+    width: 100%;
+}
+
+.navagation
+{
+    
+    text-decoration: none;
+    background-color: #225E70;
+    border-color:#3D6875;
+    color: #399EBD;
+    border: 2px #48C9F0 solid; 
+    font-size: 32px;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+a:link
+{
+    color: #399EBD;
+ text-decoration: none;
+}
+
+a:visited
+{
+    color: #399EBD;
+}
+
+a:hover
+{
+    color:aliceblue;
+}
+
+a:active
+{
+    color:#399EBD;
+}
+
+
+
+.image
+{
+    justify-content: center;
+}
+
+.cells
+{
+    display: grid;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #498496;
+    color:white;
+    font-family: 'Maven Pro', sans-serif;
+    border: 3px solid rgb(133, 193, 245);
+    
+}
+
+.article
+{
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+legend
+{
+    color: #91DCF2;
+}
+
+.legend
+{
+    color:#48C9F0;
+}
+
+.minortitle
+{
+    color: #91DCF2;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+
+
+
+
+@media screen and ( min-width : 800px ) {
+
+div > div
+{
+
+}
+
+    
+.site
+{
+    display: grid;
+    row-gap: 5px;
+    grid-template-rows: 1fr 8fr 1fr;
+}
+
+.navagation
+{
+grid-row: 1;
+grid-column: span 3;
+}
+
+.footer
+{
+grid-column: 2;
+grid-row: 3;
+}
+
+.article
+{
+grid-row: 2;
+grid-column: 2;
+}
+
+.title
+{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.hobbies
+{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.aside
+{
+    grid-column: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+
+
+.body
+{
+    justify-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    row-gap: 5px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto ;
+}
+}
